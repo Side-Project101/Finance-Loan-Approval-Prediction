@@ -1,0 +1,35 @@
+Banking Dataset:
+
+1. Test Dataset:
+Loan_id : unique value
+Gender:  replace blank with others
+Married: no change
+Dependency: replace blank with 0
+Education: no change
+Self employed: Replace blank with unemployed(NO)
+Application income: has 0 ( no income) No change
+CoapplicantIncome : has 0 ( no income) No change
+Loan amount: has blank (int) Can be removed , or  we can take median value as the blank value
+Loan_Amount_Term: has blank (int) Can be removed , or  we can take median value as the blank value,
+                  This column describes about the amount of time you have to make payments on a loan and I think it is give in number of months
+Credit_History: has blank(int). (0 - Bad credit, 1 -Good credit (categorical))
+                              - Replace blank with zero.
+Property_Area: no change
+
+2. Train DataSet : 
+
+Loan_id : unique value (can be related to test table to join)
+Gender:  replace blank with others
+Married: no change
+Dependency: replace blank with 0
+Education: no change
+Self employed: Replace blank with unemployed(NO)
+Application income: has 0 ( no income) No change
+CoapplicantIncome : has 0 ( no income) No change
+Loan amount: has blank (int) Can be removed , or  we can take median value as the blank value
+Loan_Amount_Term: has blank (int) Can be removed , or  we can take median value as the blank value,
+                  This column describes about the amount of time you have to make payments on a loan and I think it is give in number of months
+Credit_History: has blank(int). (0 - Bad credit, 1 -Good credit (categorical))
+                              - Replace blank with zero.
+Property_Area: no change
+Loan_Status: no change
